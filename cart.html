@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Hub | Cart</title>
+    <meta name="description" content="The cart page of Game Hub." />
+    <link href="css/stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="navLink"><a href="index.html">Home</a></li>
+          <li class="navLink"><a href="games.html">Games</a></li>
+          <li class="navLink"><a id="selected" href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="cart grid">
+      <div class="container">
+        <h1 class="center">Cart</h1>
+        <div class="flex row">
+          <div class="flex column cartcover">
+            <img src="Images/Black_cover.jpg" alt="Black game cover" />
+          </div>
+          <div class="cartlist column">
+            <ul class="flex row border">
+              <li>Product Name</li>
+              <li>Qty</li>
+              <li>Product Price</li>
+            </ul>
+            <ul class="flex row border">
+              <li>Black</li>
+              <li><button>1</button></li>
+              <li>200 NOK</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container flex column">
+        <h2 class="center">Payment Summary</h2>
+        <div class="flex row">
+          <ul id="lefttable" class="flex column">
+            <li>Subtotal</li>
+            <li>Sales tax</li>
+            <li>Discount</li>
+            <li id="total">Total</li>
+          </ul>
+          <ul id="righttable" class="flex column">
+            <li>150 NOK</li>
+            <li>50 NOK</li>
+            <li>-0 NOK</li>
+            <li id="total">200 NOK</li>
+          </ul>
+        </div>
+        <div class="center">
+          <button id="purchase">
+            <a id="checkoutbutton" href="checkout.html">Proceed to checkout</a>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li class="navLink"><a href="about.html">About Us</a></li>
+          <li class="navLink"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script src="Javascript/scripts.js"></script>
+</html>

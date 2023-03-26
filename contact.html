@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Page where you can contact the Game Hub organization" />
+    <title>Game Hub | Contact Us</title>
+    <link href="css/stylesheet.css" rel="Stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li class="navLink"><a href="index.html">Home</a></li>
+          <li class="navLink"><a href="games.html">Games</a></li>
+          <li class="navLink" id="cart"><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="grid">
+      <section class="container">
+        <h1 class="center">Contact Us!</h1>
+        <form class="flex column">
+          <label class="center" for="email">E-Mail</label>
+          <input
+            class="center"
+            type="email"
+            id="email"
+            label="E-Mail"
+            placeholder="E-Mail Address" />
+          <label class="center" for="message">Message</label>
+          <textarea
+            class="center"
+            type="message"
+            id="message"
+            label="message"
+            placeholder="Write your message here">
+          </textarea>
+          <input type="submit" id="submit" value="Send message" />
+        </form>
+      </section>
+      <section class="container" id="contactcontainer">
+        <h2 class="center">Other contact information</h2>
+        <p>We can also be contacted using these options:</p>
+        <div id="contact" class="flex row">
+          <ul id="tableleft" class="flex column">
+            <li>Address</li>
+            <li>E-Mail Address</li>
+            <li>Telephone</li>
+            <li>Fax Machine</li>
+          </ul>
+          <ul id="tableright">
+            <li>37 Game Str, Michigan</li>
+            <li>Support@GameHub.com</li>
+            <li>+4798989898</li>
+            <li>+44-208-2314765</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li class="navLink"><a href="about.html">About Us</a></li>
+          <li id="selected" class="navLink">Contact Us</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

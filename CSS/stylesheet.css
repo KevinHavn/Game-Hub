@@ -1,0 +1,161 @@
+:root {
+  --background-color: #1c243c;
+  --secondary-color: #3a4050;
+}
+
+img {
+  max-width: 100%;
+}
+p, h1, h2, h3, h4 {
+  color:white;
+}
+a:link,
+a:visited,
+a:active {
+  color: white;
+}
+* {
+  margin: 0px;
+  font-family: "squada one";
+  list-style: none;
+  font-size: 1.5rem;
+}
+textarea {
+  resize: none;
+}
+li {
+  color:white;
+}
+body {
+  background-color: var(--background-color);
+}
+.container {
+  background-color: var(--secondary-color);
+  justify-self: center;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+label {
+  color:white;
+}
+.logo {
+  max-width: 60%;
+  align-self: center;
+  margin: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.row {
+  flex-direction: row;
+  gap: 1rem;
+  justify-content:space-between;
+}
+.column {
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.grid {
+  display: grid;
+  margin: 2rem;
+  gap: 0.7rem;
+}
+header,
+footer {
+  background: var(--secondary-color);
+}
+footer {
+  margin: 0px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0.5rem;
+}
+.navLink a:hover {
+  color: black;
+}
+#purchase {
+  background: green;
+  border-radius: 8px;
+  border: none;
+}
+#details {
+  background: orange;
+  border-radius: 8px;
+  border: none;
+}
+/*Home Grid*/
+.home {
+  grid-template-columns: repeat(1, 1fr);
+}
+.featured {
+  grid-column: 1;
+  grid-row: 2;
+  max-width: 30%;
+}
+
+.preorder {
+  max-width: 30%;
+}
+/*Games*/
+.gamesgrid {
+  grid-template-columns: 1fr;
+}
+.games {
+  max-width: 40%;
+}
+/*About Us*/
+#contact {
+  margin-top: 20px;
+}
+#contactcontainer {
+  margin: 4rem;
+}
+#tableleft {
+  margin-left: 0px;
+}
+#tableright {
+  text-align: right;
+}
+.about {
+  max-width: 50%;
+}
+/*Cart*/
+.cart {
+  grid-template-columns: 1fr 1fr;
+  margin: 8rem;
+}
+.cartcover {
+  max-width: 40%;
+}
+.cartlist {
+  display: flex;
+  gap: 2rem;
+}
+#lefttable {
+  margin-top: 2rem;
+}
+#righttable {
+  margin-top: 2rem;
+}
+#total {
+  margin-top: 2rem;
+}
+#checkoutbutton {
+  color: black;
+}
+#checkoutcontainer {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 50%;
+}
+#selected {
+  color:darkorange
+}
