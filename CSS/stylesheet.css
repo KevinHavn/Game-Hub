@@ -72,6 +72,10 @@ footer {
 footer {
   margin: 0px;
 }
+.details {
+  margin:5rem;
+  max-width:60%;
+}
 nav ul {
   display: flex;
   flex-direction: row;
@@ -106,7 +110,8 @@ nav ul {
 }
 /*Games*/
 .gamesgrid {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin:5rem;
 }
 .games {
   max-width: 40%;
