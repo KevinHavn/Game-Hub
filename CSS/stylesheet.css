@@ -57,6 +57,12 @@ label {
 .cartbutton:hover {
   background:darkgreen;
 }
+.link, link a:visited {
+  color:white;
+}
+.link:hover {
+  color:black;
+}
 .logo {
   max-width: 60%;
   align-self: center;
