@@ -8,7 +8,7 @@
       name="description"
       content="The home page of Game Hub, showing our best deals and offers!" />
     <title>Game Hub | Home</title>
-    <link href="css/stylesheet.css" rel="stylesheet" />
+    <link href="CSS/stylesheet.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -21,8 +21,9 @@
       </nav>
     </header>
     <main class="home grid">
-      <section id="featuredcontainer" class="preorder container">
-      </section>
+      <section
+        id="featuredcontainer"
+        class="preorder container flex column"></section>
       <section class="featured container">
         <h2 class="center">Featured Games!</h2>
         <div id="featured" class="flex row">
@@ -33,12 +34,10 @@
               alt="Black Game Cover" />
             <p class="center">200 NOK</p>
             <div class="flex column">
-              <button id="purchase">
-                <a id="checkoutbutton" href="cart.html">Add to Cart</a>
-              </button>
-              <button id="details">
-                <a id="checkoutbutton" href="details.html">Details</a>
-              </button>
+              <a class="pseudobutton cartbutton" href="cart.html">Cart</a>
+              <a class="pseudobutton detailsbutton" href="details.html"
+                >Details
+              </a>
             </div>
           </div>
           <div class="container">
@@ -48,12 +47,10 @@
               alt="Ping Pong Game Cover" />
             <p class="center">Free</p>
             <div class="flex column">
-              <button id="purchase">
-                <a id="checkoutbutton" href="cart.html">Add to Cart</a>
-              </button>
-              <button id="details">
-                <a id="checkoutbutton" href="details.html">Details</a>
-              </button>
+              <a class="pseudobutton cartbutton" href="cart.html">Cart</a>
+              <a class="pseudobutton detailsbutton" href="details.html"
+                >Details
+              </a>
             </div>
           </div>
         </div>

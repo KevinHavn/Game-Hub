@@ -9,9 +9,9 @@ img {
 p, h1, h2, h3, h4 {
   color:white;
 }
-a:link,
-a:visited,
-a:active {
+header a:link, footer a:link,
+header a:visited, footer a:visited,
+header a:active, footer a:active {
   color: white;
 }
 * {
@@ -38,6 +38,25 @@ body {
 label {
   color:white;
 }
+.pseudobutton {
+  border-radius:8px;
+  color:black;
+  padding:0.25rem;
+  align-self:center;
+  box-shadow: black 2px 2px 6px;
+}
+.detailsbutton {
+  background: orange;
+}
+.detailsbutton:hover {
+  background:#e59400;
+}
+.cartbutton {
+  background:green;
+}
+.cartbutton:hover {
+  background:darkgreen;
+}
 .logo {
   max-width: 60%;
   align-self: center;
@@ -63,7 +82,6 @@ label {
 .grid {
   display: grid;
   margin: 2rem;
-  gap: 0.7rem;
 }
 header,
 footer {
@@ -74,6 +92,8 @@ footer {
 }
 .details {
   margin:5rem;
+  margin-right:20rem;
+  margin-left:20rem;
   max-width:60%;
 }
 nav ul {
@@ -98,6 +118,7 @@ nav ul {
 /*Home Grid*/
 .home {
   grid-template-columns: repeat(1, 1fr);
+  gap:1rem;
 }
 .featured {
   grid-column: 1;
@@ -111,7 +132,10 @@ nav ul {
 /*Games*/
 .gamesgrid {
   grid-template-columns: 1fr 1fr 1fr;
+  gap:2rem;
   margin:5rem;
+  margin-left:10rem;
+  margin-right:10rem;
 }
 .games {
   max-width: 40%;

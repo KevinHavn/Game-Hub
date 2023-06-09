@@ -2,9 +2,9 @@ const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
 const url =
-  "https://gamehub.kevinhavn.no/wp-json/wc/store/products/" +
+  "https://admin.kevinhavn.no/wp-json/wc/store/products/" +
   id +
-  "?Consumer_key=ck_66d9428b1208042429ba50951ddd347e00ecd825&Consumer_secret=cs_976806e579a8575b402f036ac49115b1c6d81683/";
+  "?Consumer_key=ck_5c94f4c0ad956c202014a0b172a7304db5977b7a&Consumer_secret=cs_a877919e05e89f8ebe4b727598b85b7ce4bf0c2f/";
 
 async function fetchDetail() {
   const response = await fetch(url);
@@ -33,11 +33,11 @@ function createDetailHtml(detail) {
     detailContainer.append(img);
   }
 
-  const description = document.createElement("p")
-  description.innerText = detail.description;
-  detailContainer.append(description)
+  const description = document.createElement("p");
+  description.innerHTML = detail.description;
+  detailContainer.append(description);
 
-  detailsGrid.append(detailContainer)
+  detailsGrid.append(detailContainer);
 }
 
 async function main() {
