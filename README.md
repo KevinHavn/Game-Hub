@@ -17,6 +17,12 @@ Game Hub is a digital marketplace designed to be both sleek and functional, havi
 - [WooCommerce](https://woocommerce.com/)
 - [Adobe XD](https://www.adobe.com/)
 
+## Getting Started
+
+### Running
+
+This project is available online at [https://www.kevinhavn.no/gamehub] (https://www.kevinhavn.no/gamehub)
+
 ## Contributing
 
 Contributions to this project are currently closed!
