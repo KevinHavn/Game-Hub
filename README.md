@@ -9,12 +9,17 @@ This is my Cross-Course Project, a project I've worked on and refined for severa
 Game Hub is a digital marketplace designed to be both sleek and functional, having passed through several stages to further refine the original design. The project was designed in Adobe XD, and initially made without Javascript, which was added in later stages of the project.
 
 ## Built With
+
 - HTML
 - CSS
 - Javascript
 - [Wordpress](https://wordpress.com/)
 - [WooCommerce](https://woocommerce.com/)
 - [Adobe XD](https://www.adobe.com/)
+
+## Contributing
+
+Contributions to this project are currently closed!
 
 ## Contact
 
